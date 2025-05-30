@@ -4,17 +4,17 @@ This project demonstrates the power of multimodal AI by combining image generati
 
 You'll explore how to generate images from text prompts, evaluate them using vision-language models, and perform reasoning about visual content.
 
-## 🔍 Technologies Used
+## Technologies Used
 
-- 🤖 **Stable Diffusion XL (SDXL)** for text-to-image generation
-- 🧠 **CLIP (Contrastive Language–Image Pretraining)** for image-text similarity evaluation
-- 📝 **BLIP (Bootstrapped Language Image Pretraining)** for image captioning and visual question answering
-- 💬 **BLIP-VQA** for answering questions about visual content
-- 🧰 Powered by **Hugging Face Transformers**, **Diffusers**, and **PyTorch**
+- **Stable Diffusion XL (SDXL)** for text-to-image generation
+- **CLIP (Contrastive Language–Image Pretraining)** for image-text similarity evaluation
+- **BLIP (Bootstrapped Language Image Pretraining)** for image captioning and visual question answering
+- **BLIP-VQA** for answering questions about visual content
+- Powered by **Hugging Face Transformers**, **Diffusers**, and **PyTorch**
 
 ---
 
-## 💡 Project Capabilities
+## Project Capabilities
 
 ### 1. Text-to-Image Generation
 Generate realistic and artistic images from simple or complex natural language prompts using Stable Diffusion XL.
@@ -36,26 +36,26 @@ Ask BLIP-VQA questions about an image (e.g., “How many clouds are there?”) a
 
 ---
 
-## 🧪 Example
+## Example
 
 **Prompt:** `3 deer with 2 trees in the background with 1 sun and 1 cloud`
 
-- 📷 Image generated via Stable Diffusion XL
-- 🧠 Caption from BLIP: `"three deer in a grassy field with trees"`
-- ❓ VQA responses:
+- Image generated via Stable Diffusion XL
+- Caption from BLIP: `"three deer in a grassy field with trees"`
+- VQA responses:
   - How many deer? → `3`
   - How many trees? → `2`
   - How many clouds? → `1`
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Setup
 
 ```bash
-git clone https://github.com/yourusername/nlp-generative-ai.git
-cd nlp-generative-ai
+git clone https://github.com/kexin516/Generative-AI-with-Diffusion-CLIP-BLIP-and-VQA.git
+cd Generative-AI-with-Diffusion-CLIP-BLIP-and-VQA
 
 # Install dependencies
 pip install -r requirements.txt
